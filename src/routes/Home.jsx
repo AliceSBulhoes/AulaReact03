@@ -1,9 +1,14 @@
 import React from 'react'
+import { Section, SectionContent, HomeTitle} from '../components/styled'
 
 const Home = () => {
   return (
     <>
-        <h1>Página Home</h1>
+        <Section>
+            <SectionContent>
+                <HomeTitle>Página Home</HomeTitle>
+            </SectionContent>
+        </Section>
     </>
   )
 }

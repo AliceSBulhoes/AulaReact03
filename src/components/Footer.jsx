@@ -1,9 +1,12 @@
 import React from 'react'
+import { FooterSection, FooterText } from './styled'
 
 const Footer = () => {
   return (
     <>
-        <h5>@2024 - Todos os direitos reservados</h5>
+        <FooterSection>
+            <FooterText>@2024 - Todos os direitos reservados</FooterText>
+        </FooterSection>
     </>
   )
 }
