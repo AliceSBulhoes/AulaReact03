@@ -7,7 +7,7 @@ import App from './App.jsx'
 // Importando o Erro
 import Error from './routes/Error.jsx'
 
-// Importando o Aluno
+// Importando o Home
 import Home from './routes/Home.jsx'
 
 // Importando o Aluno
